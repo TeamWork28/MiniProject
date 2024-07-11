@@ -1,0 +1,19 @@
+Hello there welcome to this README.md file.
+Over here you find the steps on to run this project in your PC/Mac.
+Simple.
+Just copy the code uploaded in the repository and now comes the actual gameplay.
+First make sure that you've copied the code without missing a parenthesis and paste it in your compiler software (i.e VS Code).
+All the files are created with Python. You can run the code in VS Code, PyCharm and Spyder. We tried it in PyCharm (An IDE made for compiling advanced Python codes).
+Now read the steps carefully don't miss any of them.
+Step 1:- Make sure you have installed cv2 module, if not (pip install opencv-python) Copy, Paste it.
+Step 2:- Tensorflow (pip install tensorflow)
+Step 3:- Mediapipe (pip install mediapipe)
+Step 4:- Keras (pip install keras)
+If you see the code, you can see the redlines which means the modules or packages are not installed. Once they're installed the redlines will be removed and you can run the project.
+Important point all the files should be in one location and in one folder. My preference for you is download the free version of PyCharm and run your code in it.
+Once you uploaded you files in PyCharm, you need to create a folder (directory) inside the main folder with the name (Images). You need to create 26 folder for the letters and 10 folders for numbers.
+First run the (collectdata.py), next the (function.py), later on the (App.py) and at the last (trainmodel.py). Follow the order.
+When your PC/Mac camera opens you need to show each letter to the camera and capture each letter min of 30 times. Ex:- If you chose A, when the camera pops up, you need to show the A symbol according to ASL and press the A button 30 times on the keyboard.
+Similarly do the same procedure for each letters and viola your project is now completed and when you run the (App.py) and show the letter infront of the camera you can get the 10% result in the screen.
+That's it your project is done, I hope you liked it. Make sure that if any errors occur try to solve them or if required change the code.
+Thank you.
